@@ -1,0 +1,42 @@
+* {
+    font-family: 'arial';
+}
+ .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+ }
+span{
+    font-weight: 700;
+    color: red;
+}
+i, label {
+    color: #656a6e;
+}
+i {
+    font-size: 12px;
+    font-weight: 300;
+}
+label{
+    font-weight: 400;
+    font-size: 14px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10px;
+}
+.btn{
+    background-color:#22547c;
+	border-radius: 3px;
+	display:inline-block;
+	cursor:pointer;
+    color: #ffff;
+    border: none;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: #1a3f5e
+}
