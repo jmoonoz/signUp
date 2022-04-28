@@ -8,39 +8,60 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <!-- contianer to house all contents of sign up -->
     <div class="container">
       <h1>Sign Up</h1>
-      <h6>
-        <i><span>*</span>required field</i>
-      </h6>
+        <!-- span styled red for universal use, and i for italic style font -->
+        <h6>
+          <i><span>*</span>required field</i>
+        </h6>
+     
       <!-- form section -->
       <form>
-          <!-- grid container to create two columns at set widths -->
+        <!-- grid container to create two columns at set widths -->
         <div class="grid-container">
-          <label for="fname">First Name<span>*</span></label>
-          <input type="text" id="fname" name="fname" required/>
-          <label for="lname">Last Name<span>*</span></label>
-          <input type="text" id="lname" name="lname"  required/>
+          <!-- first name: type text with required input. labeld firstName for assistive technologies -->
+          <label for="firstName">First Name<span>*</span></label>
+          <input type="text" id="firstName" name="firstName" required />
+          <!-- last Name: type text with required input. labeld lastName for assistive technologies -->
+          <label for="lastName">Last Name<span>*</span></label>
+          <input type="text" id="lastName" name="lastName" required />
+          <!-- campus: select used for drop down menu input and requried. Labeled Campus for assistive technologies -->
           <label for="campus">Campus<span>*</span></label>
           <select>
-              <option>-All-</option>
+            <option>-All-</option>
           </select>
-          <label for="phoneNumber" >Phone Number<span>*</span></label>
-          <input type="number" id="phoneNumber" name="phoneNumber" required/>
+          <!-- phone number: type number and required. labeled phoneNumber for assistive technologies  -->
+          <label for="phoneNumber">Phone Number<span>*</span></label>
+          <input type="number" id="phoneNumber" name="phoneNumber" required />
+          <!-- email:  type email and required. labeled email for assistive technologies -->
           <label for="email">Email Address<span>*</span></label>
-          <input type="email" id="email" name="email" required/>
-          <label>Alternative Contact Name</label>
-          <input type="text" />
-          <label for="altNumber">Alternate Contact Phone #</label>
-          <input type="number" id="altNumber" name="altNumber"/>
-          <label>Would you like to volunteer at a campus?<span>*</span></label>
+          <input type="email" id="email" name="email" required />
+          <!-- alternative contact: type text. labled alternativeContact for assistive technologies -->
+          <label for="alternativeContact">Alternative Contact Name</label>
+          <input
+            type="text"
+            id="alternativeContact"
+            name="alternativeContact"
+          />
+          <!-- alternative number: type number. labled alternativeNumber for assistive technologies   -->
+          <label for="alternativeNumber">Alternate Contact Phone #</label>
+          <input
+            type="number"
+            id="alternativeNumber"
+            name="alternativeNumber"
+          />
+          <!-- volunteer: radio choice input. labled volunteer  -->
+          <label for="volunteer">
+            Would you like to volunteer at a campus?<span>*</span>
+          </label>
           <div>
             <label>
-              <input type="radio" name="choice-radio">
+              <input type="radio" name="choice-yes" id="volunteer" />
               Yes
             </label>
             <label>
-              <input type="radio" name="choice-radio">
+              <input type="radio" name="choice-no" id="volunteer" />
               No
             </label>
           </div>
