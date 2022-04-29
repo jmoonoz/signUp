@@ -49,8 +49,8 @@ label{
         font-size: 12px;
     }
     .grid-container{
-        grid-template-columns: 40% 60%;
-        gap: 10px;
+        grid-template-columns: auto;
+        gap: 7px;
     }
     .container{
         width: 75%;

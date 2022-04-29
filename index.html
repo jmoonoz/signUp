@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Problem #2</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
     <!-- Designed and developed by Joel Muñoz -->
   </head>
   <body>
@@ -38,12 +38,12 @@
           <!-- email:  type email and required. labeled email for assistive technologies -->
           <label for="email">Email Address<span>*</span></label>
           <input type="email" id="email" name="email" required />
-          <!-- alternative contact: type text. labled alternativeContact for assistive technologies -->
-          <label for="alternativeContact">Alternative Contact Name</label>
+          <!-- alternative contact: type text. labled alternativeContactName for assistive technologies -->
+          <label for="alternativeContactName">Alternative Contact Name</label>
           <input
             type="text"
-            id="alternativeContact"
-            name="alternativeContact"
+            id="alternativeContactName"
+            name="alternativeContactName"
           />
           <!-- alternative number: type tel. labled alternativeContactPhone for assistive technologies   -->
           <label for="alternativeContactPhone">Alternate Contact Phone #</label>
@@ -52,7 +52,7 @@
             id="alternativeContactPhone"
             name="alternativeContactPhone"
           />
-          <!-- volunteer: radio choice input. labled volunteer  -->
+          <!-- volunteer: radio choice input. labled volunteer for assistive technologies  -->
           <label for="volunteer">
             Would you like to volunteer at a campus?<span>*</span>
           </label>
@@ -68,6 +68,7 @@
               No
             </label>
           </div>
+          <!-- submit button to send all values form form to server -->
           <input class="btn" type="submit" value="Submit" />
         </div>
       </form>
