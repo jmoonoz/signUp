@@ -1,7 +1,15 @@
 * {
     font-family: 'arial';
 }
+body { 
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(239deg,#f4efbf,#ffffff,#d1ffff);
+  background-size: 180% 180%;
+  animation: background-animation 15s ease infinite;
+}
  .container{
+   background-color: #ffff;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -103,4 +111,17 @@ label{
         width: 75%;
     }
 
+}
+
+/* background animation */
+@keyframes background-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
