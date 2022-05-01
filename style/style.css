@@ -1,23 +1,9 @@
 * {
     font-family: 'arial';
 }
-<<<<<<< HEAD
-body { 
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(239deg,#f4efbf,#ffffff,#d1ffff);
-  background-size: 180% 180%;
-  animation: background-animation 15s ease infinite;
-}
- .container{
-   background-color: #ffff;
-    padding-right: 15px;
-    padding-left: 15px;
-=======
 /* form box */
  .container{
     padding: 20px;
->>>>>>> form
     margin-right: auto;
     margin-left: auto;
     width: 50%;
